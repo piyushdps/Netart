@@ -5,7 +5,7 @@ import phone from "../Images/phone.svg";
 export default function Footer() {
   return (
     <div className="footer-container">
-      <a href="#!">
+      <a href="tel:18002001234">
         {" "}
         <div className="foot">
           <img className="svg" alt="phone" src={phone}></img>
@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
         </div>
       </a>
-      <a href="#!">
+      <a href="https://www.facebook.com/cripumps">
         <div className="foot">
           <svg
             fill="#FFF"
@@ -29,7 +29,7 @@ export default function Footer() {
           <p>www.facebook.com/cripumps</p>
         </div>
       </a>
-      <a href="#!">
+      <a href="https://www.cripumps.com/">
         <div className="foot">
           <img className="svg" alt="phone" src={web}></img>
           <p>www.cripumps.com</p>
